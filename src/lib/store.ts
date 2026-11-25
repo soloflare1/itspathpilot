@@ -32,7 +32,7 @@ export function studyTopic(id: string, gain = 8) {
   const m = Math.min(100, (state.mastery[id] ?? 0) + gain);
   const status = { ...state.status, [id]: statusFor(m, "progress") };
   // unlock quadratics when functions >= 60
-  if ((id === "func" ? m : state.mastery.func ?? 0) >= 60 && status.quad === "locked") status.quad = "improve";
+  if ((id === "func" ? m : state.mastery["func"] ?? 0) >= 60 && status["quad"] === "locked") status["quad"] = "improve";
   set({ mastery: { ...state.mastery, [id]: m }, status });
 }
 

@@ -7,7 +7,7 @@ import { useStore, studyTopic } from "@/lib/store";
 import { Card, PageHeader, Bar } from "@/components/pp/ui";
 
 export const Route = createFileRoute("/app/map")({
-  validateSearch: (s: Record<string, unknown>): { topic?: string } => (typeof s.topic === "string" ? { topic: s.topic } : {}),
+  validateSearch: (s: Record<string, unknown>): { topic?: string } => (typeof s["topic"] === "string" ? { topic: s["topic"] } : {}),
   head: () => ({ meta: [{ title: "Knowledge Map — PathPilot" }, { name: "description", content: "Interactive map of Mathematics concepts and their prerequisites." }, { property: "og:title", content: "Knowledge Map — PathPilot" }, { property: "og:description", content: "See how every concept connects." }] }),
   component: MapPage,
 });

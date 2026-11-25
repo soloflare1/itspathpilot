@@ -3,7 +3,7 @@ import { useStore } from "@/lib/store";
 import { Lock, Check } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-export function KnowledgeGraph({ selected, onSelect }: { selected?: string; onSelect?: (id: string) => void }) {
+export function KnowledgeGraph({ selected, onSelect }: { selected?: string | undefined; onSelect?: (id: string) => void }) {
   const s = useStore();
   return (
     <div className="relative aspect-[16/10] w-full min-w-[560px]">

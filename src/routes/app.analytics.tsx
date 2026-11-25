@@ -17,7 +17,7 @@ function Analytics() {
   const o = overallMastery(s);
   const ranked = [...topics].filter((t) => s.status[t.id] !== "locked").sort((a, b) => s.mastery[b.id]! - s.mastery[a.id]!);
   const goals = [
-    { t: "Reach 60% in Linear Equations", v: Math.min(100, Math.round((s.mastery.lin! / 60) * 100)) },
+    { t: "Reach 60% in Linear Equations", v: Math.min(100, Math.round((s.mastery["lin"]! / 60) * 100)) },
     { t: "Study 5 hours this week", v: 82 },
     { t: "Complete 2 diagnostics", v: s.lastScore !== null ? 100 : 50 },
   ];
