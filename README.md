@@ -362,7 +362,7 @@ TAGLINE: FIND YOUR GAPS. FOLLOW YOUR PATH. OWN YOUR FUTURE.
 
 This project was built with [Lovable](https://lovable.dev).
 
-**Live app**: https://itspathpilot.lovable.app
+**Live app**: [https://itspathpilot.lovable.app](https://lovable.dev/preview/g10YGrgNJ0dmijjqlShDwFBATjniabIi)
 
 ## Build with Lovable
 
