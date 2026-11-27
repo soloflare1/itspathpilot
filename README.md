@@ -1,19 +1,6 @@
 # Itspathpilot
 
-# PATHPILOT — A Premium EdTech Platform | AetherMind 2026
-
-Act as an award-winning UI/UX designer, senior frontend engineer, and innovative EdTech product architect.
-
-Build a complete, visually stunning, highly interactive, premium-quality EdTech web application named **PATHPILOT**.
-
-**Competition:** AetherMind 2026  
-**Category:** EdTech  
-**Project:** Personalized Learning Roadmap and Knowledge Gap Discovery  
-**Tagline:** Find Your Gaps. Follow Your Path. Own Your Future.
-
-This must look like a real, professional EdTech startup product, not a basic university assignment or a generic AI-generated dashboard.
-
----
+# PATHPILOT — A Premium EdTech Platform 
 
 ## 1. PRODUCT VISION
 
